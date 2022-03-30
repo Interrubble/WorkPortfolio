@@ -1,20 +1,21 @@
+/* Setting up page */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Creating initial background */
 body {
     background: darkslateblue;
 }
-
+/* Altering background of header */
 header {
     background: green;
     line-height: 15vh;
     background-image: url(./images/zac-and-gish-take-4.jpg);
     background-size: 400px;
 }
-
+/* Creating initial main background */
 main {
     background: rgb(117, 117, 240);
     min-height: 70vh;
@@ -28,7 +29,7 @@ footer {
     background: blueviolet;
     height: 15vh;
 }
-
+/* Setting style */
 h1 {
     text-align: left;
     background-color: aqua;
@@ -66,7 +67,7 @@ nav {
     flex-wrap: nowrap;
     list-style-type: none;
 }
-
+/* Setting style and set up for hover effect of links */
 nav a {
     border-width: 2px;
     border-style: solid;
@@ -80,11 +81,11 @@ nav a {
     background-color: purple;
     color: red;
 }
-
+/* Creating appealing spacing */
 .ab-wo-co-re a {
     margin-bottom: 20px;
 }
-
+/* Styling boxes */
 #aboutme, #work, #contact {
     border: 3px dashed black;
     width: 30%;
@@ -93,7 +94,7 @@ nav a {
     transition: box-shadow 0.3s linear;
     height: 50%;
 }
-
+/* Setting image size */
 img {
     max-height: 25px;
     max-width: 25px;
@@ -108,7 +109,7 @@ img {
 .phone {
     padding-bottom: 3px;
 }
-
+/* Creating hover settings */
 .colors section:hover, .colors section:hover h3 {
     box-shadow: 5px 5px 20px 5px inset crimson;
     transition: box-shadow 0.3s linear;
@@ -123,7 +124,7 @@ a:hover {
     color: white;
     box-shadow:rgb(117, 117, 240);
 }
-
+/* Styling */
 h3 {
     border: 3px solid black;
     text-align: center;
@@ -136,12 +137,12 @@ h3 {
     border-radius: 10px;
     font-size: 18px;
 }
-
+/* Replacing background */
 .colors {
     background-image: url("./images/bewd.jpg");
     background-size:369px;
 }
-
+/* Styling */
 .colors section {
     background: linear-gradient(purple, gray);
     border-radius: 10px;
@@ -151,7 +152,7 @@ h3 {
     display: flex;
     align-items: center;
 }
-
+/* Setting media quieries */
 @media screen and (max-width:992px) {
     #aboutme, #work, #contact {
         width:47%;
