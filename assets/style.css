@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkslateblue;
+}
+
+header {
+    background: green;
+    line-height: 15vh;
+    background-image: url(./images/zac-and-gish-take-4.jpg);
+    background-size: 400px;
+}
+
+main {
+    background: rgb(117, 117, 240);
+    min-height: 70vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer {
+    background: blueviolet;
+    height: 15vh;
+}
+
+h1 {
+    text-align: left;
+    background-color: aqua;
+    display: flex;
+    box-sizing: border-box;
+    max-width: fit-content;
+    padding: 2px;
+    border-radius: 30px;
+    border: black solid 2px;
+    opacity: 50%;
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    display: static;
+    position: relative;
+    text-align: justify;
+}
+
+.projects {
+    font-weight: bolder;
+    padding-left: 20px;
+}
+
+.horiseon {
+    padding-bottom: 3px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+
+nav a {
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+    margin: 0 3px;
+    padding: 2px;
+    display:flex;
+    max-height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: red;
+}
+
+.ab-wo-co-re a {
+    margin-bottom: 20px;
+}
+
+#aboutme, #work, #contact {
+    border: 3px dashed black;
+    width: 30%;
+    padding: 0 20px;
+    margin: 20px 0;
+    transition: box-shadow 0.3s linear;
+    height: 50%;
+}
+
+img {
+    max-height: 25px;
+    max-width: 25px;
+}
+
+.contacting {
+    text-align: left;
+    display:inline;
+    margin: 2px;
+}
+
+.phone {
+    padding-bottom: 3px;
+}
+
+.colors section:hover, .colors section:hover h3 {
+    box-shadow: 5px 5px 20px 5px inset crimson;
+    transition: box-shadow 0.3s linear;
+}
+
+h1:hover {
+    opacity: 100%;
+    transition: opacity 0.5s linear;
+}
+
+a:hover {
+    color: white;
+    box-shadow:rgb(117, 117, 240);
+}
+
+h3 {
+    border: 3px solid black;
+    text-align: center;
+    width: 50%;
+    margin: auto 0;
+    position: relative;
+    left: -15px;
+    top: 0;
+    background: blue;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.colors {
+    background-image: url("./images/bewd.jpg");
+    background-size:369px;
+}
+
+.colors section {
+    background: linear-gradient(purple, gray);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 2%;
+    user-select: all;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:992px) {
+    #aboutme, #work, #contact {
+        width:47%;
+        height: 47%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #aboutme, #work, #contact {
+        width:100%;
+    }
+}
