@@ -10,9 +10,8 @@ body {
 }
 /* Altering background of header */
 header {
-    background: green;
+    background: radial-gradient(blue,lightblue);
     line-height: 15vh;
-    background-image: url(./images/zac-and-gish-take-4.jpg);
     background-size: 400px;
 }
 /* Creating initial main background */
@@ -93,12 +92,7 @@ nav {
     transition: box-shadow 0.3s linear;
     height: 50%;
 }
-/* Setting image size */
-img {
-    max-height: 25px;
-    max-width: 25px;
-}
-
+/* Setting style for contact blocks */
 .phone,.email {
     text-align: left;
     border-width: 2px;
@@ -118,7 +112,7 @@ img {
 }
 /* Creating hover settings */
 .colors section:hover, .colors section:hover h3 {
-    box-shadow: 5px 5px 20px 5px inset crimson;
+    box-shadow: 5px 5px 20px 5px inset white;
     transition: box-shadow 0.3s linear;
 }
 
@@ -146,7 +140,6 @@ h3 {
 }
 /* Replacing background */
 .colors {
-    background-image: url("./images/bewd.jpg");
     background-size:369px;
 }
 /* Styling */
