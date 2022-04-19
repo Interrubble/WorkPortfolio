@@ -36,7 +36,7 @@ h1 {
     display: flex;
     box-sizing: border-box;
     max-width: fit-content;
-    padding: 2px;
+    padding: 2px 5px;
     border-radius: 30px;
     border: black solid 2px;
     opacity: 50%;
@@ -57,7 +57,7 @@ p {
     padding-left: 20px;
 }
 
-.horiseon {
+.activity {
     padding-bottom: 3px;
 }
 
@@ -68,21 +68,20 @@ nav {
     list-style-type: none;
 }
 /* Setting style and set up for hover effect of links */
-nav a {
+/* Creating appealing spacing */
+.ab-wo-co-re a {
     border-width: 2px;
     border-style: solid;
     border-color: orange;
-    margin: 0 3px;
-    padding: 2px;
+    padding: auto;
     display:flex;
     max-height: 25px;
     justify-content: center;
     align-items: center;
     background-color: purple;
     color: red;
-}
-/* Creating appealing spacing */
-.ab-wo-co-re a {
+    height:fit-content;
+    width:fit-content;
     margin-bottom: 20px;
 }
 /* Styling boxes */
@@ -100,10 +99,18 @@ img {
     max-width: 25px;
 }
 
-.contacting {
+.phone,.email {
     text-align: left;
-    display:inline;
-    margin: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+    margin: 3% 5px;
+    padding: auto;
+    display:block;
+    background-color: purple;
+    color: red;
+    height:fit-content;
+    width:fit-content;
 }
 
 .phone {
@@ -148,7 +155,6 @@ h3 {
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 2%;
-    user-select: all;
     display: flex;
     align-items: center;
 }
