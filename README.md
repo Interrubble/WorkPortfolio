@@ -8,7 +8,8 @@ Included in this site are links to a collaborated porject with three other class
 
 # Content
 
-![Screenshot 2022-04-18 203941](https://user-images.githubusercontent.com/101491029/163915563-4af915a4-672e-414b-868d-465c1c8fe3ca.png)
+![Screenshot 2022-04-27 194123](https://user-images.githubusercontent.com/101491029/165666034-6fc76669-c161-4880-bdc9-d837b8b49644.png)
+
 Technology used includes HTML, CSS, and minimal Bootstrap/javascript.
 
 # Deployment
