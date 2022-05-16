@@ -1,22 +1,49 @@
-# WorkPortfolio
+# Work Portfolio
 
-AS A potential candidate,
-I WANT to present my top current repositories/projects
-SO THAT I am highly considered by potential employers
+## Table of Contents:
 
-Included in this site are links to a collaborated porject with three other classmates, as well as two individual projects I completed myself.
+1. Description
+2. Installation
+3. Usage
+4. Contributons
+5. Tests
+6. License
+7. GitHub
+8. LinkedIn
+9. Email
 
-# Content
+## Description
 
-![Screenshot 2022-04-27 194123](https://user-images.githubusercontent.com/101491029/165666034-6fc76669-c161-4880-bdc9-d837b8b49644.png)
+This is the portfolio I created using HTML and CSS functionality. It displays my contact info, links to my linkedin and github profiles, as well as images of some recent projects.
 
-Technology used includes HTML, CSS, and minimal Bootstrap/javascript.
+## Installation
 
-# Deployment
+Use the command "N/A" to install any necessary dependencies.
 
- https://github.com/Interrubble/WorkPortfolio
- https://interrubble.github.io/WorkPortfolio/
+## Usage
 
-# Summary
+N/A.
 
-Thank you for viewing my work! There will be more and better things to come as I keep honing my skills with software!
+## Contributions
+
+None for this project. Forks welcome to create your own portfolio with similar styles!.
+
+## Tests
+
+Stay up to date on tests as needed. To run tests, please use "N/A".
+
+## License
+
+License: MIT.
+
+## GitHub
+
+www.github.com/Interrubble
+
+## LinkedIn
+
+www.linkedin.com/in/christopher-delagarza-309550234
+
+## Email
+
+delagarzachris@icloud.com
